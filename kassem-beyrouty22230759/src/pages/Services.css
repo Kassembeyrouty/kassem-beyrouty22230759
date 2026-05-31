@@ -1,0 +1,114 @@
+.services-page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.services-page h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #1f5068;
+  margin-bottom: 30px;
+}
+
+.services-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.service-item {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.service-item h3 {
+  color: #2c7da0;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.ticket-calculator {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.ticket-calculator h3 {
+  color: #1f5068;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.prices {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.ticket-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket-inputs label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ticket-inputs input {
+  width: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.ticket-calculator button {
+  background-color: #2c7da0;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.ticket-calculator button:hover {
+  background-color: #1f5068;
+}
+
+.ticket-result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.ticket-result.green {
+  background-color: #d4edda;
+  color: green;
+}
+
+.ticket-result.blue {
+  background-color: #cfe2ff;
+  color: #1f5068;
+}
